@@ -1,0 +1,685 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QuickCRM | Simple CRM software for growing sales teams</title>
+  <meta name="description" content="QuickCRM keeps every lead, contact, deal and follow up in one visual sales pipeline. Free 14 day trial, no credit card required." />
+  <meta property="og:title" content="QuickCRM | Simple CRM software for growing sales teams" />
+  <meta property="og:description" content="Every lead, call and follow up in one pipeline your whole team actually uses." />
+  <link rel="icon" href="QCRM.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-logo" href="#top" aria-label="QuickCRM home"><img src="QCRM.png" alt="QuickCRM by Techforce Global" /></a>
+      <div class="nav-links">
+        <a class="on" href="#top">Product</a>
+        <a href="#features">Features</a>
+        <a href="#industries">Industries</a>
+        <a href="#integrations">Integrations</a>
+        <a href="#reviews">Customers</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="nav-cta">
+        <a class="link" href="#">Log in</a>
+        <a class="btn btn-primary btn-sm" href="#cta">Start free trial <i class="ph-bold ph-arrow-right"></i></a>
+      </div>
+      <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </nav>
+    <div class="mobile-menu" aria-hidden="true">
+      <a href="#features" style="--i:0">Features</a>
+      <a href="#industries" style="--i:1">Industries</a>
+      <a href="#integrations" style="--i:2">Integrations</a>
+      <a href="#reviews" style="--i:3">Customers</a>
+      <a href="#faq" style="--i:4">FAQ</a>
+      <a class="btn btn-primary" href="#cta" style="--i:5">Start free trial</a>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="glow g1"></div><div class="glow g2"></div><div class="glow g3"></div>
+      <div class="grid-lines"></div>
+    </div>
+
+    <div class="hero-copy wrap" id="main">
+      <a class="announce" href="#automation" data-reveal>
+        <span class="announce-tag">New</span>
+        AI company enrichment is live
+        <i class="ph ph-arrow-right"></i>
+      </a>
+      <h1 class="hero-title" data-split>
+        <span class="line">Simple CRM software that</span>
+        <span class="line"><em class="serif accent">turns more leads</em> into customers</span>
+      </h1>
+      <p class="hero-sub" data-reveal style="--d:.35s">Every lead, contact, deal and follow up lives in one visual pipeline, so your sales team stays organized, follows up faster and closes more.</p>
+      <div class="hero-ctas" data-reveal style="--d:.45s">
+        <a class="btn btn-primary btn-lg magnetic" href="#cta">Start your free 14 day trial <i class="ph-bold ph-arrow-right"></i></a>
+        <a class="btn btn-ghost btn-lg" href="#demo"><i class="ph-fill ph-cursor-click"></i> Try the live demo</a>
+      </div>
+      <ul class="risk" data-reveal style="--d:.55s">
+        <li><i class="ph-fill ph-check-circle"></i>No credit card required</li>
+        <li><i class="ph-fill ph-check-circle"></i>Live in 2 minutes</li>
+        <li><i class="ph-fill ph-check-circle"></i>Cancel anytime</li>
+      </ul>
+    </div>
+
+    <!-- ===== Interactive dashboard ===== -->
+    <div class="stage" id="demo">
+      <div class="demo-hint"><span class="dot-live"></span><em class="serif">Interactive demo.</em> Click the sidebar, drag deals, filter leads.</div>
+
+      <div class="device" data-tilt>
+        <div class="app">
+          <aside class="side">
+            <img class="side-logo" src="QCRM.png" alt="QuickCRM" />
+            <nav class="side-nav" aria-label="Demo navigation">
+              <span class="side-indicator"></span>
+              <button class="on" data-view="overview"><i class="ph ph-squares-four"></i>Overview</button>
+              <button data-view="pipeline"><i class="ph ph-kanban"></i>Pipeline<span class="side-badge">7</span></button>
+              <button data-view="leads"><i class="ph ph-user-list"></i>Leads</button>
+              <button data-view="contacts"><i class="ph ph-address-book"></i>Contacts</button>
+              <button data-view="reports"><i class="ph ph-chart-bar"></i>Reports</button>
+              <button data-view="automation"><i class="ph ph-lightning"></i>Automation</button>
+            </nav>
+            <div class="side-trial">
+              <b>Trial: 11 days left</b>
+              <span>Invite your team and import leads from CSV.</span>
+              <div class="meter"><i style="width:22%"></i></div>
+            </div>
+          </aside>
+
+          <div class="main">
+            <div class="topbar">
+              <div>
+                <h4 class="view-title">Hello, Ananya</h4>
+                <small class="view-sub">Here is how your sales are moving today</small>
+              </div>
+              <div class="tb-right">
+                <label class="search"><i class="ph ph-magnifying-glass"></i><input type="text" placeholder="Search leads" aria-label="Search leads" id="globalSearch" /></label>
+                <button class="ico-btn bell" aria-label="Notifications"><i class="ph ph-bell"></i><span class="bell-count">3</span></button>
+                <span class="av av-sm" style="--c:#2563EB">AB</span>
+              </div>
+            </div>
+
+            <div class="views">
+              <!-- OVERVIEW -->
+              <section class="view on" data-view="overview">
+                <div class="kpis">
+                  <div class="kpi"><div class="lab">New leads<i class="ph ph-user-plus c-blue"></i></div><div class="val" data-count="248">0</div><div class="d"><i class="ph-bold ph-trend-up"></i>+12.4% <span>this week</span></div><svg class="spark" viewBox="0 0 100 28"><path d="M0 22 L14 18 L28 20 L42 12 L56 15 L70 8 L84 10 L100 3"/></svg></div>
+                  <div class="kpi"><div class="lab">Deals won<i class="ph ph-trophy c-green"></i></div><div class="val" data-count="37" id="kpiWon">0</div><div class="d"><i class="ph-bold ph-trend-up"></i>+8.1% <span>this week</span></div><svg class="spark" viewBox="0 0 100 28"><path d="M0 20 L14 21 L28 16 L42 17 L56 11 L70 13 L84 7 L100 6"/></svg></div>
+                  <div class="kpi"><div class="lab">Pipeline value<i class="ph ph-currency-dollar c-teal"></i></div><div class="val" data-count="412.6" data-prefix="$" data-suffix="K" data-dec="1">0</div><div class="d"><i class="ph-bold ph-trend-up"></i>+5.6% <span>this week</span></div><svg class="spark" viewBox="0 0 100 28"><path d="M0 24 L14 20 L28 22 L42 15 L56 16 L70 12 L84 9 L100 5"/></svg></div>
+                  <div class="kpi"><div class="lab">Win rate<i class="ph ph-target c-amber"></i></div><div class="val" data-count="31.4" data-suffix="%" data-dec="1">0</div><div class="d"><i class="ph-bold ph-trend-up"></i>+3.2% <span>this week</span></div><svg class="spark" viewBox="0 0 100 28"><path d="M0 18 L14 19 L28 15 L42 16 L56 12 L70 14 L84 9 L100 8"/></svg></div>
+                </div>
+                <div class="ov-row">
+                  <div class="card chart-card">
+                    <div class="card-h"><b>Revenue closed</b>
+                      <div class="seg" data-seg="chart"><button class="on" data-range="7">7 days</button><button data-range="30">30 days</button><button data-range="90">Quarter</button></div>
+                    </div>
+                    <div class="chart-total"><span id="chartTotal">$48,920</span><small id="chartDelta">+14.2% vs previous</small></div>
+                    <div class="chart" id="revChart">
+                      <svg viewBox="0 0 400 140" preserveAspectRatio="none">
+                        <defs><linearGradient id="fillBlue" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2563EB" stop-opacity=".22"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></linearGradient></defs>
+                        <g class="gridl"><line x1="0" x2="400" y1="35" y2="35"/><line x1="0" x2="400" y1="70" y2="70"/><line x1="0" x2="400" y1="105" y2="105"/></g>
+                        <path class="area" d=""/>
+                        <path class="line" d=""/>
+                      </svg>
+                      <div class="chart-cursor"><span class="chart-dot"></span><span class="chart-tip"></span></div>
+                      <div class="chart-x"></div>
+                    </div>
+                  </div>
+                  <div class="card todo-card">
+                    <div class="card-h"><b>Today's follow ups</b><span class="badge b-amber" id="todoLeft">4 left</span></div>
+                    <ul class="todo" id="todo">
+                      <li><button class="chk" aria-label="Mark done"></button><div><b>Call Priya Nair</b><span>Solace Health · 10:30 AM</span></div><span class="badge b-rose">Hot</span></li>
+                      <li><button class="chk" aria-label="Mark done"></button><div><b>Send quote to Vikram Das</b><span>Northwind Co. · 12:00 PM</span></div><span class="badge b-blue">Proposal</span></li>
+                      <li><button class="chk" aria-label="Mark done"></button><div><b>Demo with Kavya Menon</b><span>CloudNest · 3:15 PM</span></div><span class="badge b-teal">Meet</span></li>
+                      <li><button class="chk" aria-label="Mark done"></button><div><b>WhatsApp Sneha Rao</b><span>Vantage Labs · Overdue</span></div><span class="badge b-rose">Late</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <!-- PIPELINE -->
+              <section class="view" data-view="pipeline">
+                <div class="card board">
+                  <div class="card-h">
+                    <div><b>Sales pipeline</b> <span class="muted" id="pipeTotal">$67,300 open</span></div>
+                    <div class="seg" data-seg="pipe"><button class="on" data-mode="board"><i class="ph ph-kanban"></i>Board</button><button data-mode="list"><i class="ph ph-list"></i>List</button></div>
+                  </div>
+                  <div class="kanban" id="kanban">
+                    <div class="col" data-stage="New"><div class="col-h"><i style="--c:#94A3B8"></i>New<span class="n"></span></div><div class="col-body"></div><div class="col-sum"></div></div>
+                    <div class="col" data-stage="Qualified"><div class="col-h"><i style="--c:#2563EB"></i>Qualified<span class="n"></span></div><div class="col-body"></div><div class="col-sum"></div></div>
+                    <div class="col" data-stage="Proposal"><div class="col-h"><i style="--c:#0EA5E9"></i>Proposal<span class="n"></span></div><div class="col-body"></div><div class="col-sum"></div></div>
+                    <div class="col" data-stage="Negotiation"><div class="col-h"><i style="--c:#F59E0B"></i>Negotiation<span class="n"></span></div><div class="col-body"></div><div class="col-sum"></div></div>
+                    <div class="col won" data-stage="Won"><div class="col-h"><i style="--c:#16A34A"></i>Won<span class="n"></span></div><div class="col-body"></div><div class="col-sum"></div></div>
+                  </div>
+                  <div class="pipe-list" id="pipeList" hidden></div>
+                  <div class="drag-hint"><i class="ph-fill ph-hand-grabbing"></i>Drag a deal to another stage</div>
+                </div>
+              </section>
+
+              <!-- LEADS -->
+              <section class="view" data-view="leads">
+                <div class="card leads-card">
+                  <div class="card-h">
+                    <div class="chips" id="leadChips">
+                      <button class="chip on" data-tag="All">All</button>
+                      <button class="chip" data-tag="Hot Lead">Hot Lead</button>
+                      <button class="chip" data-tag="Follow Up">Follow Up</button>
+                      <button class="chip" data-tag="Inbound">Inbound</button>
+                      <button class="chip" data-tag="Calling Data">Calling Data</button>
+                      <button class="chip" data-tag="Proposal Sent">Proposal Sent</button>
+                    </div>
+                    <button class="btn btn-primary btn-xs" id="addLead"><i class="ph-bold ph-plus"></i>Add lead</button>
+                  </div>
+                  <div class="table">
+                    <div class="tr th"><span>Name</span><span>Tags</span><span>Source</span><span>Owner</span><span>Value</span></div>
+                    <div id="leadRows"></div>
+                    <div class="empty" id="leadEmpty" hidden><i class="ph ph-magnifying-glass"></i><b>No leads match that filter</b><span>Try another tag or clear the search.</span></div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- CONTACTS -->
+              <section class="view" data-view="contacts">
+                <div class="contact-grid">
+                  <div class="card profile">
+                    <div class="pf-top"><span class="av av-lg" style="--c:#0EA5E9">SW</span><span class="badge b-green live"><span class="dot-live"></span>Live</span></div>
+                    <b class="pf-name">Sarah Whitmore</b>
+                    <span class="muted">Head of Ops, Whitmore &amp; Co.</span>
+                    <ul class="pf-meta">
+                      <li><i class="ph ph-phone"></i>+1 (415) 555-0199</li>
+                      <li><i class="ph ph-envelope-simple"></i>sarah@whitmoreco.com</li>
+                      <li><i class="ph ph-map-pin"></i>San Francisco, CA</li>
+                    </ul>
+                    <div class="pf-deal"><span class="muted">Open deal</span><b>$42,000</b><span>Enterprise renewal · <em class="serif">Proposal sent</em></span></div>
+                    <div class="pf-actions">
+                      <button class="btn btn-primary btn-xs" data-log="call"><i class="ph-bold ph-phone-outgoing"></i>Log call</button>
+                      <button class="btn btn-ghost btn-xs" data-log="note"><i class="ph-bold ph-note-pencil"></i>Add note</button>
+                    </div>
+                  </div>
+                  <div class="card activity">
+                    <div class="card-h"><b>Activity timeline</b><span class="muted">Everything in one profile</span></div>
+                    <ul class="timeline" id="timeline">
+                      <li><i class="ph-fill ph-phone-outgoing c-blue"></i><div><b>Call · 12 min</b><span>Walked through the renewal scope and seat count.</span></div><time>Today</time></li>
+                      <li><i class="ph-fill ph-envelope-simple c-teal"></i><div><b>Email opened</b><span>Revised quote v2, opened 3 times.</span></div><time>Yesterday</time></li>
+                      <li><i class="ph-fill ph-note-pencil c-amber"></i><div><b>Note</b><span>Decision expected after their Q4 board review.</span></div><time>Mon</time></li>
+                      <li><i class="ph-fill ph-video-camera c-green"></i><div><b>Zoom demo</b><span>Attended with 4 team leads.</span></div><time>Sep 28</time></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <!-- REPORTS -->
+              <section class="view" data-view="reports">
+                <div class="report-grid">
+                  <div class="card">
+                    <div class="card-h"><b>Deals won by rep</b>
+                      <div class="seg" data-seg="reps"><button class="on" data-p="week">Week</button><button data-p="month">Month</button><button data-p="quarter">Quarter</button></div>
+                    </div>
+                    <div class="bars" id="repBars"></div>
+                  </div>
+                  <div class="card sources">
+                    <div class="card-h"><b>Lead sources</b></div>
+                    <div class="donut-wrap">
+                      <svg class="donut" viewBox="0 0 42 42">
+                        <circle class="ring-bg" cx="21" cy="21" r="15.9"/>
+                        <circle class="seg1" cx="21" cy="21" r="15.9" stroke-dasharray="41 59" stroke-dashoffset="25"/>
+                        <circle class="seg2" cx="21" cy="21" r="15.9" stroke-dasharray="22 78" stroke-dashoffset="-16"/>
+                        <circle class="seg3" cx="21" cy="21" r="15.9" stroke-dasharray="11 89" stroke-dashoffset="-38"/>
+                      </svg>
+                      <div class="donut-c"><b>74%</b><span>top 3</span></div>
+                    </div>
+                    <ul class="legend">
+                      <li><i style="--c:#2563EB"></i>Website<b>41%</b></li>
+                      <li><i style="--c:#60A5FA"></i>Referral<b>22%</b></li>
+                      <li><i style="--c:#0EA5A4"></i>Cold outreach<b>11%</b></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+
+              <!-- AUTOMATION -->
+              <section class="view" data-view="automation">
+                <div class="auto-grid">
+                  <div class="card">
+                    <div class="card-h"><b>Automations</b><span class="muted">Next digest in <b id="countdown">--</b></span></div>
+                    <ul class="autos">
+                      <li><i class="ph-fill ph-alarm c-blue"></i><div><b>8 AM follow up digest</b><span>Email and in app alert for anything due or overdue</span></div><button class="switch on" aria-pressed="true" aria-label="Toggle"></button></li>
+                      <li><i class="ph-fill ph-users-three c-teal"></i><div><b>Round robin assignment</b><span>Share new website leads across the team</span></div><button class="switch on" aria-pressed="true" aria-label="Toggle"></button></li>
+                      <li><i class="ph-fill ph-warning c-amber"></i><div><b>Stalled deal alert</b><span>Ping the owner after 7 days without activity</span></div><button class="switch" aria-pressed="false" aria-label="Toggle"></button></li>
+                      <li><i class="ph-fill ph-whatsapp-logo c-green"></i><div><b>WhatsApp welcome</b><span>Send a hello the minute a lead comes in</span></div><button class="switch" aria-pressed="false" aria-label="Toggle"></button></li>
+                    </ul>
+                  </div>
+                  <div class="card enrich-card">
+                    <div class="card-h"><b>Company enrichment</b><span class="badge b-blue"><i class="ph-fill ph-sparkle"></i>AI</span></div>
+                    <div class="enrich-input"><i class="ph ph-globe-simple"></i><span>silverlinetech.io</span><button class="btn btn-primary btn-xs" id="enrichBtn">Enrich</button></div>
+                    <div class="enrich-out" id="enrichOut">
+                      <div class="enrich-empty"><i class="ph ph-buildings"></i>Paste a website and get a sales ready profile in seconds.</div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="app-toast" id="appToast" role="status" aria-live="polite"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- floating cards -->
+      <div class="float glass f-lead" data-depth="18">
+        <div class="fl-h"><span class="av" style="--c:#F97316">AM</span><div><b>New lead captured</b><span>Arjun Mehta · Orbit Retail</span></div></div>
+        <div class="fl-tags"><span class="badge b-rose">Hot Lead</span><span class="badge b-blue">Website</span><span class="badge b-green">$8.5K</span></div>
+      </div>
+      <div class="float glass f-rem" data-depth="26">
+        <div class="fl-h"><span class="mini-ico solid"><i class="ph-fill ph-bell-ringing"></i></span><div><b>Follow up due today</b><span>Call Priya Nair at 10:30 AM</span></div></div>
+        <div class="fl-ring"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="15"/><circle class="p" cx="18" cy="18" r="15"/></svg><span>3 of 4 done before noon</span></div>
+      </div>
+      <div class="float glass f-won" data-depth="14">
+        <div class="fl-h"><span class="mini-ico green"><i class="ph-fill ph-trophy"></i></span><div><b>Deal won · $11,300</b><span>Zenith Freight moved to Won</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- ================= PROOF STRIP ================= -->
+    <section class="proof">
+      <div class="wrap proof-row">
+        <p data-reveal>Trusted by startups and growing sales teams across <em class="serif">nine industries.</em></p>
+        <div class="stats">
+          <div class="stat" data-reveal style="--d:.05s"><b><span data-count="4.8" data-dec="1">0</span></b><div><div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star-half"></i></div><span>Rated by sales teams</span></div></div>
+          <div class="stat" data-reveal style="--d:.1s"><b><span data-count="2">0</span> min</b><span>from signup to your first pipeline</span></div>
+          <div class="stat" data-reveal style="--d:.15s"><b><span data-count="9">0</span></b><span>ready to use industry setups</span></div>
+          <div class="stat" data-reveal style="--d:.2s"><b>8 AM</b><span>daily follow up digest for every rep</span></div>
+        </div>
+      </div>
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <span><i class="ph ph-house-line"></i>Real Estate</span><span><i class="ph ph-graduation-cap"></i>Education &amp; Coaching</span><span><i class="ph ph-bank"></i>Financial Services</span><span><i class="ph ph-headset"></i>Call Centers &amp; BPO</span><span><i class="ph ph-factory"></i>Manufacturing &amp; B2B</span><span><i class="ph ph-airplane-tilt"></i>Tours &amp; Travels</span><span><i class="ph ph-briefcase"></i>Recruitment &amp; Staffing</span><span><i class="ph ph-barbell"></i>Gyms &amp; Fitness</span><span><i class="ph ph-car-profile"></i>Automotive Showroom</span>
+          <span><i class="ph ph-house-line"></i>Real Estate</span><span><i class="ph ph-graduation-cap"></i>Education &amp; Coaching</span><span><i class="ph ph-bank"></i>Financial Services</span><span><i class="ph ph-headset"></i>Call Centers &amp; BPO</span><span><i class="ph ph-factory"></i>Manufacturing &amp; B2B</span><span><i class="ph ph-airplane-tilt"></i>Tours &amp; Travels</span><span><i class="ph ph-briefcase"></i>Recruitment &amp; Staffing</span><span><i class="ph ph-barbell"></i>Gyms &amp; Fitness</span><span><i class="ph ph-car-profile"></i>Automotive Showroom</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROBLEM ================= -->
+    <section class="section problem deco-dots">
+      <div class="deco-arc" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <span class="label label-rose">The problem</span>
+          <h2>Great sales teams still lose deals <em class="serif">to scattered tools</em></h2>
+          <p>Leads hide in spreadsheets, inboxes and sticky notes. Follow ups stop after the first attempt, and Monday reporting eats half the morning.</p>
+        </div>
+        <div class="prob-grid">
+          <article class="prob" data-reveal style="--d:0s">
+            <span class="num">01</span><h3>Leads scattered everywhere</h3><p>Enquiries land in spreadsheets and inboxes. By the time someone follows up, the lead has gone cold.</p>
+            <div class="vis scatter"><i class="ph-fill ph-file-xls" style="--x:-34px;--y:-14px;color:#16A34A"></i><i class="ph-fill ph-envelope-simple" style="--x:30px;--y:-18px;color:#EA4335"></i><i class="ph-fill ph-note" style="--x:-12px;--y:16px;color:#F59E0B"></i><i class="ph-fill ph-chat-circle-dots" style="--x:40px;--y:14px;color:#25D366"></i></div>
+          </article>
+          <article class="prob" data-reveal style="--d:.08s">
+            <span class="num">02</span><h3>Follow ups fall through</h3><p>Without reminders, most sequences quietly stop after the first or second attempt.</p>
+            <div class="vis dropoff"><span style="--h:100%"></span><span style="--h:58%"></span><span style="--h:22%"></span><span style="--h:8%"></span></div>
+          </article>
+          <article class="prob" data-reveal style="--d:.16s">
+            <span class="num">03</span><h3>No pipeline visibility</h3><p>Managers cannot tell which deals are stuck until it is already too late.</p>
+            <div class="vis stuck"><div class="row"><i class="ph ph-eye-slash"></i><b>14</b> deals with no activity</div><div class="bar"><span style="--w:38%"></span></div></div>
+          </article>
+          <article class="prob" data-reveal style="--d:.24s">
+            <span class="num">04</span><h3>Reporting eats hours</h3><p>Pulling numbers together for a Monday review takes half the morning.</p>
+            <div class="vis clock"><div class="row"><i class="ph ph-clock-countdown"></i><b>3h 40m</b> on reports</div><div class="bar"><span style="--w:92%"></span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CALCULATOR ================= -->
+    <section class="section calc-sec">
+      <div class="wrap calc">
+        <div class="calc-copy" data-reveal>
+          <span class="label">Revenue calculator</span>
+          <h2>What are missed follow ups <em class="serif">costing you?</em></h2>
+          <p>Move the sliders to match your team. We estimate how much revenue QuickCRM can win back when no lead goes without a follow up.</p>
+          <div class="calc-inputs">
+            <label class="range"><span>Leads per month <output id="oLeads">400</output></span><input type="range" id="rLeads" min="50" max="2000" step="10" value="400" /></label>
+            <label class="range"><span>Average deal value <output id="oDeal">$2,400</output></span><input type="range" id="rDeal" min="200" max="20000" step="100" value="2400" /></label>
+            <label class="range"><span>Leads that get no follow up <output id="oMiss">38%</output></span><input type="range" id="rMiss" min="5" max="80" step="1" value="38" /></label>
+            <label class="range"><span>Current close rate <output id="oConv">6%</output></span><input type="range" id="rConv" min="1" max="40" step="0.5" value="6" /></label>
+          </div>
+        </div>
+        <div class="calc-result" data-reveal style="--d:.15s">
+          <div class="cr-top">
+            <span class="muted-light">Revenue you could win back</span>
+            <div class="cr-big"><span id="calcYear">$157,632</span><small>per year</small></div>
+            <div class="cr-split">
+              <div><b id="calcMonth">$13,136</b><span>per month</span></div>
+              <div><b id="calcDeals">5.5</b><span>extra deals monthly</span></div>
+              <div><b id="calcLeads">152</b><span>leads rescued monthly</span></div>
+            </div>
+          </div>
+          <div class="cr-bars" id="crBars" aria-hidden="true"></div>
+          <p class="cr-note">Estimate assumes QuickCRM reminders recover 60% of leads that currently get no follow up, at your current close rate.</p>
+          <a class="btn btn-white" href="#cta">Start recovering revenue <i class="ph-bold ph-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TAGLINE ================= -->
+    <section class="tagline">
+      <div class="tag-bg" aria-hidden="true"><span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span><div class="glow tg"></div></div>
+      <div class="wrap tag-inner">
+        <span class="label label-light">Why QuickCRM</span>
+        <h2 id="tagText">Every lead, every call, every follow up. <em>One pipeline</em> your whole team actually uses.</h2>
+        <div class="tag-points">
+          <div data-reveal><i class="ph ph-lightning"></i><b>Live in 2 minutes</b><span>No consultants, no setup fees</span></div>
+          <div data-reveal style="--d:.1s"><i class="ph ph-alarm"></i><b>Reminders at 8 AM</b><span>Every rep, every morning</span></div>
+          <div data-reveal style="--d:.2s"><i class="ph ph-shield-check"></i><b>Encrypted end to end</b><span>Role based access built in</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+    <section class="section features deco-grid" id="features">
+      <div class="glow fg" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <span class="label">One platform</span>
+          <h2>One CRM for your <em class="serif">entire sales process</em></h2>
+          <p>Every lead, call, follow up and report connects back to one source of truth, so nothing falls through the cracks.</p>
+        </div>
+        <div class="bento">
+          <article class="b-card span4" data-reveal>
+            <div class="k"><span class="mini-ico"><i class="ph ph-kanban"></i></span><span class="arrow"><i class="ph ph-arrow-up-right"></i></span></div>
+            <h3>Visual pipeline with drag and drop deals</h3>
+            <p>Move a card to a new stage and your forecast updates instantly. The whole team always knows what comes next.</p>
+            <div class="demo mini-kanban">
+              <div class="mk-col"><span><i style="--c:#2563EB"></i>Qualified</span><div class="mk-card"><b>$42,000</b>Enterprise renewal</div></div>
+              <div class="mk-col"><span><i style="--c:#0EA5E9"></i>Proposal sent</span><div class="mk-card mover"><b>$18,500</b>SaaS upgrade plan</div></div>
+              <div class="mk-col"><span><i style="--c:#F59E0B"></i>Negotiation</span><div class="mk-card"><b>$9,140</b>CloudNest annual</div></div>
+              <div class="mk-col"><span><i style="--c:#16A34A"></i>Won</span><div class="mk-card"><b>$11,300</b>Zenith Freight</div></div>
+            </div>
+          </article>
+          <article class="b-card span2 b-accent" data-reveal style="--d:.1s" id="automation">
+            <div class="k"><span class="mini-ico"><i class="ph ph-alarm"></i></span><span class="arrow"><i class="ph ph-arrow-up-right"></i></span></div>
+            <h3>Automated follow ups</h3>
+            <p>Every morning at 8 AM, reps get an email and an in app nudge for anything due or overdue.</p>
+            <div class="demo notif-stack" id="notifStack">
+              <div class="notif"><span class="mini-ico soft-blue"><i class="ph-fill ph-bell-ringing"></i></span><div><b>4 follow ups due</b>Kavya, Rohan and 2 others</div></div>
+              <div class="notif"><span class="mini-ico soft-rose"><i class="ph-fill ph-warning"></i></span><div><b>1 overdue</b>Sneha Rao · Vantage Labs</div></div>
+              <div class="notif"><span class="mini-ico soft-green"><i class="ph-fill ph-check-circle"></i></span><div><b>Digest sent to 12 reps</b>Today at 8:00 AM</div></div>
+            </div>
+          </article>
+          <article class="b-card span2" data-reveal>
+            <div class="k"><span class="mini-ico"><i class="ph ph-identification-card"></i></span><span class="arrow"><i class="ph ph-arrow-up-right"></i></span></div>
+            <h3>360° contact records</h3>
+            <p>Every call, note and detail tied back to one clean contact profile.</p>
+            <div class="demo">
+              <div class="contact-row"><span class="av" style="--c:#0EA5E9">SW</span><div><b>Sarah Whitmore</b><span>Whitmore &amp; Co.</span></div><span class="badge b-green"><span class="dot-live"></span>Live</span></div>
+              <div class="tl-mini"><span><i class="ph ph-phone-outgoing c-blue"></i>Call · 12 min</span><time>Today</time></div>
+              <div class="tl-mini"><span><i class="ph ph-note-pencil c-amber"></i>Sent revised quote</span><time>Mon</time></div>
+            </div>
+          </article>
+          <article class="b-card span2" data-reveal style="--d:.1s">
+            <div class="k"><span class="mini-ico"><i class="ph ph-funnel"></i></span><span class="arrow"><i class="ph ph-arrow-up-right"></i></span></div>
+            <h3>Smart filter insights</h3>
+            <p>Slice your lead list by tag, source, status or owner in one click.</p>
+            <div class="demo src-bars">
+              <div><span>Website</span><i style="--w:82%"></i><b>41%</b></div>
+              <div><span>Referral</span><i style="--w:44%"></i><b>22%</b></div>
+              <div><span>Cold outreach</span><i style="--w:22%"></i><b>11%</b></div>
+            </div>
+          </article>
+          <article class="b-card span2" data-reveal style="--d:.2s">
+            <div class="k"><span class="mini-ico"><i class="ph ph-tag"></i></span><span class="arrow"><i class="ph ph-arrow-up-right"></i></span></div>
+            <h3>Tags that fit your process</h3>
+            <p>Create your own tags, then filter or bulk update in one click. <em class="serif">Try them.</em></p>
+            <div class="demo tag-play" id="tagPlay">
+              <button class="badge b-rose on"><i class="ph-fill ph-fire"></i>Hot Lead</button><button class="badge b-blue">Calling Data</button><button class="badge b-amber on">Follow Up</button><button class="badge b-teal">Proposal Sent</button><button class="badge b-green">Inbound</button>
+              <div class="tag-count"><b id="tagCount">23</b> leads match</div>
+            </div>
+          </article>
+          <article class="b-card span6 enrich-wide" data-reveal>
+            <div>
+              <div class="k k-start"><span class="mini-ico"><i class="ph ph-sparkle"></i></span><span class="badge b-blue">AI powered</span></div>
+              <h3 class="h-lg">Know the company <em class="serif">before you dial</em></h3>
+              <p>Turn any company website into a sales ready profile. QuickCRM surfaces firmographics, technologies, key decision makers, buying signals and recent news, so reps walk into every call prepared.</p>
+            </div>
+            <div class="demo scan">
+              <div class="contact-row"><span class="mini-ico dark"><i class="ph-bold ph-globe-simple"></i></span><div><b>silverlinetech.io</b><span>B2B SaaS · 120 to 250 employees · Pune</span></div><span class="badge b-green"><i class="ph-bold ph-check"></i>Enriched</span></div>
+              <div class="scan-line" aria-hidden="true"></div>
+              <div class="enrich-stats"><div><b data-count="3">0</b>Talking points</div><div><b data-count="2">0</b>Buying signals</div><div><b data-count="1">0</b>Recommended opener</div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="section steps deco-dots">
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <span class="label">How it works</span>
+          <h2>From spreadsheet to <em class="serif">live pipeline in 2 minutes</em></h2>
+          <p>No consultants and no setup fees. Your team can be working real leads before lunch.</p>
+        </div>
+        <div class="step-track" id="stepTrack"><span></span></div>
+        <div class="step-grid">
+          <article class="step" data-reveal><span class="step-n">01</span><div class="step-ico"><i class="ph ph-upload-simple"></i></div><h3>Import your leads</h3><p>Upload a CSV or move from another CRM in minutes, with field mapping so nothing is lost.</p></article>
+          <article class="step" data-reveal style="--d:.12s"><span class="step-n">02</span><div class="step-ico"><i class="ph ph-sliders-horizontal"></i></div><h3>Pick your industry setup</h3><p>Start with stages, tags and fields built for how your industry actually sells.</p></article>
+          <article class="step" data-reveal style="--d:.24s"><span class="step-n">03</span><div class="step-ico"><i class="ph ph-handshake"></i></div><h3>Follow up and close</h3><p>Daily reminders keep every rep on track while you watch the pipeline move.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= INDUSTRIES ================= -->
+    <section class="section industries" id="industries">
+      <div class="glow ig" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <span class="label">Industries</span>
+          <h2>Nine industries. <em class="serif">One CRM, ready on day one.</em></h2>
+          <p>Each setup comes preconfigured with the stages, tags and fields your team actually uses.</p>
+        </div>
+        <div class="ind" data-reveal>
+          <div class="ind-tabs" role="tablist" aria-label="Industries" id="indTabs"></div>
+          <div class="ind-panel" id="indPanel" role="tabpanel">
+            <div class="ind-copy">
+              <div class="ind-meta"><span class="ind-count" id="indCount">01 / 09</span><span class="ind-progress"><i id="indProg"></i></span></div>
+              <h3 id="indTitle"></h3>
+              <p id="indDesc"></p>
+              <span class="mini-label">What we build</span>
+              <div class="ind-feats" id="indFeats"></div>
+              <span class="mini-label">Where we focus</span>
+              <div class="ind-focus" id="indFocus"></div>
+              <a class="btn btn-primary" id="indCta" href="#cta">Explore <i class="ph-bold ph-arrow-right"></i></a>
+            </div>
+            <div class="ind-visual">
+              <div class="iv-head"><span class="iv-ico" id="indIco"></span><div><b id="indBoard">Pipeline</b><span>Preconfigured stages</span></div></div>
+              <div class="iv-stages" id="indStages"></div>
+              <div class="iv-cards" id="indCards"></div>
+              <div class="iv-foot" id="indFoot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= INTEGRATIONS ================= -->
+    <section class="section integr deco-dots" id="integrations">
+      <div class="wrap int-wrap">
+        <div class="int-copy" data-reveal>
+          <span class="label">Integrations</span>
+          <h2>Connects to the tools <em class="serif">your team already uses</em></h2>
+          <p>Keep calls, meetings, messages, contacts and pipeline data synced automatically. Connect Google Meet, Microsoft Teams, Zoom, WhatsApp, HubSpot and Zapier, and stop copying data between tabs.</p>
+          <ul class="int-list">
+            <li><i class="ph-fill ph-check-circle"></i>Two way contact sync</li>
+            <li><i class="ph-fill ph-check-circle"></i>Meetings logged on the right deal</li>
+            <li><i class="ph-fill ph-check-circle"></i>New integrations added regularly</li>
+          </ul>
+          <a class="btn btn-primary" href="#cta">Start free trial <i class="ph-bold ph-arrow-right"></i></a>
+        </div>
+        <div class="orbit" data-reveal style="--d:.1s">
+          <div class="orbit-ring o1"><span class="o-app" style="--a:0deg"><i class="ph-fill ph-whatsapp-logo" style="color:#25D366"></i></span><span class="o-app" style="--a:180deg"><i class="ph-fill ph-video-camera" style="color:#2D8CFF"></i></span></div>
+          <div class="orbit-ring o2"><span class="o-app" style="--a:60deg"><i class="ph-fill ph-google-logo" style="color:#EA4335"></i></span><span class="o-app" style="--a:180deg"><i class="ph-fill ph-microsoft-teams-logo" style="color:#5B5FC7"></i></span><span class="o-app" style="--a:300deg"><i class="ph-fill ph-lightning" style="color:#FF4F00"></i></span></div>
+          <div class="orbit-ring o3"><span class="o-app" style="--a:120deg"><i class="ph-fill ph-hexagon" style="color:#FF7A59"></i></span><span class="o-app" style="--a:300deg"><i class="ph-fill ph-envelope-simple" style="color:#2563EB"></i></span></div>
+          <div class="hub"><img src="QCRM.png" alt="" /></div>
+          <div class="pulse" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section testi" id="reviews">
+      <div class="glow tgl" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="sec-head" data-reveal>
+          <span class="label">Customer results</span>
+          <h2>Trusted by growing <em class="serif">sales teams</em></h2>
+          <p>Real feedback from teams running their pipeline on QuickCRM.</p>
+        </div>
+        <div class="t-layout" data-reveal>
+          <aside class="t-score">
+            <div class="ts-big"><b>4.8</b><span>out of 5</span></div>
+            <div class="stars lg"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star-half"></i></div>
+            <p>Loved by growing sales teams</p>
+            <ul class="ts-bars">
+              <li><span>5</span><i style="--w:84%"></i><b>84%</b></li>
+              <li><span>4</span><i style="--w:12%"></i><b>12%</b></li>
+              <li><span>3</span><i style="--w:3%"></i><b>3%</b></li>
+              <li><span>2</span><i style="--w:1%"></i><b>1%</b></li>
+            </ul>
+          </aside>
+          <div class="t-feature">
+            <i class="ph-fill ph-quotes t-mark" aria-hidden="true"></i>
+            <div class="t-slides" id="tSlides"></div>
+            <div class="t-foot">
+              <div class="t-people" id="tPeople"></div>
+              <div class="t-nav"><button class="icon-btn" id="tPrev" aria-label="Previous testimonial"><i class="ph-bold ph-arrow-left"></i></button><button class="icon-btn" id="tNext" aria-label="Next testimonial"><i class="ph-bold ph-arrow-right"></i></button></div>
+            </div>
+            <div class="t-timer"><i id="tTimer"></i></div>
+          </div>
+        </div>
+        <div class="t-marquee" aria-hidden="true">
+          <div class="tm-track">
+            <div class="tm-card"><div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div><p>Set up our real estate pipeline in one afternoon.</p><span>Rahul Sethi · Broker</span></div>
+            <div class="tm-card"><div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div><p>Telecaller performance view is exactly what we needed.</p><span>Anita Desai · BPO Lead</span></div>
+            <div class="tm-card"><div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div><p>Our trial walk ins finally get a call back the same day.</p><span>Marcus Bell · Gym Owner</span></div>
+            <div class="tm-card"><div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star-half"></i></div><p>RFQs no longer disappear across long sales cycles.</p><span>Kiran Joshi · Sales Head</span></div>
+            <div class="tm-card"><div class="stars"><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i></div><p>Simple enough that the whole team actually uses it.</p><span>Elena Vasquez · Founder</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section faq deco-grid" id="faq">
+      <div class="wrap faq-wrap">
+        <div class="faq-side" data-reveal>
+          <span class="label">FAQ</span>
+          <h2>Questions, <em class="serif">answered</em></h2>
+          <p>Everything teams ask before switching from spreadsheets to QuickCRM.</p>
+          <label class="faq-search"><i class="ph ph-magnifying-glass"></i><input type="search" id="faqSearch" placeholder="Search questions" aria-label="Search questions" /></label>
+          <div class="help">
+            <span class="mini-ico solid"><i class="ph-fill ph-chats-circle"></i></span>
+            <div><b>Still have a question?</b><span>Email and in app support, with priority support on paid plans.</span></div>
+            <a class="icon-btn" href="#cta" aria-label="Contact support"><i class="ph-bold ph-arrow-up-right"></i></a>
+          </div>
+        </div>
+        <div class="faq-list" id="faqList">
+          <details class="qa" open><summary><span class="qn">01</span>Is there a free plan?<i class="qi"></i></summary><div class="qa-body"><p>Yes. Start free with core CRM features (leads, contacts, pipeline and follow ups) and upgrade only when your team needs more.</p></div></details>
+          <details class="qa"><summary><span class="qn">02</span>Do you offer a free trial?<i class="qi"></i></summary><div class="qa-body"><p>Yes. A free 14 day trial of every feature. No credit card required, and you can cancel anytime.</p></div></details>
+          <details class="qa"><summary><span class="qn">03</span>How secure is my data?<i class="qi"></i></summary><div class="qa-body"><p>Your data is encrypted in transit and at rest, hosted on secure cloud infrastructure, with role based access so people only see what they should.</p></div></details>
+          <details class="qa"><summary><span class="qn">04</span>Can I import my existing data?<i class="qi"></i></summary><div class="qa-body"><p>Yes. Import leads and contacts from a spreadsheet (CSV) or another CRM in minutes, with field mapping so nothing is lost.</p></div></details>
+          <details class="qa"><summary><span class="qn">05</span>Can I customize the CRM for my team?<i class="qi"></i></summary><div class="qa-body"><p>Yes. Configure your own stages, tags, sources and fields, and control what Admins, Managers and BDEs can see and do.</p></div></details>
+          <details class="qa"><summary><span class="qn">06</span>What support do you offer?<i class="qi"></i></summary><div class="qa-body"><p>Email and in app support, a guided product tour and help docs, with priority support on paid plans.</p></div></details>
+          <details class="qa"><summary><span class="qn">07</span>Can I cancel or change my plan anytime?<i class="qi"></i></summary><div class="qa-body"><p>Yes. Upgrade, downgrade or cancel whenever you like from billing settings. No lock in.</p></div></details>
+          <details class="qa"><summary><span class="qn">08</span>Do you integrate with other tools?<i class="qi"></i></summary><div class="qa-body"><p>Yes. Google Meet, Microsoft Teams, Zoom, WhatsApp, HubSpot, Zapier and more, with new integrations added regularly.</p></div></details>
+          <div class="empty faq-empty" id="faqEmpty" hidden><i class="ph ph-magnifying-glass"></i><b>No questions match your search</b><span>Try a different word, or ask our team directly.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="cta" id="cta">
+      <div class="wrap">
+        <div class="cta-card" id="ctaCard">
+          <div class="cta-grid" aria-hidden="true"></div>
+          <div class="cta-spot" aria-hidden="true"></div>
+          <div class="cta-copy">
+            <span class="label label-light">Get started</span>
+            <h2>Ready to grow your pipeline? <em class="serif">Get started in 2 minutes.</em></h2>
+            <p>Create your free QuickCRM account and bring every lead into one simple sales pipeline today.</p>
+            <form class="cta-form" id="ctaForm" novalidate>
+              <label class="sr" for="ctaEmail">Work email</label>
+              <input id="ctaEmail" type="email" placeholder="you@company.com" autocomplete="email" />
+              <button class="btn btn-white" type="submit">Start free trial <i class="ph-bold ph-arrow-right"></i></button>
+              <span class="form-msg" id="ctaMsg" role="status"></span>
+            </form>
+            <ul class="cta-checks">
+              <li><i class="ph-bold ph-check"></i>No credit card required</li>
+              <li><i class="ph-bold ph-check"></i>Free 14 day trial</li>
+              <li><i class="ph-bold ph-check"></i>Cancel anytime</li>
+            </ul>
+          </div>
+          <div class="cta-visual" aria-hidden="true">
+            <div class="cv-card cv-1"><span class="mini-ico soft-blue"><i class="ph-fill ph-user-plus"></i></span><div><b>248 new leads</b><span>this week</span></div><span class="badge b-green">+12.4%</span></div>
+            <div class="cv-card cv-2">
+              <div class="cv-stage"><span>Proposal</span><span>Won</span></div>
+              <div class="cv-lane"><div class="cv-deal"><b>Rohan Iyer</b><span>BrightPath · $15.4K</span></div></div>
+            </div>
+            <div class="cv-card cv-3"><span class="mini-ico soft-green"><i class="ph-fill ph-trophy"></i></span><div><b>Win rate 31.4%</b><span>best month yet</span></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="f-top">
+        <div class="f-brand">
+          <img class="f-logo" src="QCRM.png" alt="QuickCRM by Techforce Global" />
+          <p>Simple CRM software for startups and growing sales teams. <em class="serif">Built by Techforce Global.</em></p>
+          <form class="f-news" id="newsForm" novalidate>
+            <label class="sr" for="newsEmail">Email for product updates</label>
+            <input id="newsEmail" type="email" placeholder="Get product updates" />
+            <button class="btn btn-primary btn-sm" type="submit">Subscribe</button>
+            <span class="form-msg" id="newsMsg" role="status"></span>
+          </form>
+        </div>
+        <div class="f-cols">
+          <div><h5>Product</h5><a href="#features">Sales pipeline</a><a href="#automation">Follow ups</a><a href="#features">Company enrichment</a><a href="#demo">Reports</a></div>
+          <div><h5>Industries</h5><a href="#industries">Real estate</a><a href="#industries">Education</a><a href="#industries">Financial services</a><a href="#industries">Recruitment</a></div>
+          <div><h5>Resources</h5><a href="#">Blog</a><a href="#">Buying guide</a><a href="#faq">Help center</a><a href="#cta">Book a demo</a></div>
+          <div><h5>Company</h5><a href="#">About</a><a href="#">Contact</a><a href="#">Privacy policy</a><a href="#">Terms of service</a></div>
+        </div>
+      </div>
+      <div class="f-bottom">
+        <span>© 2026 QuickCRM by Techforce Global. All rights reserved.</span>
+        <span class="status"><span class="dot-live"></span>All systems operational</span>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+          <a href="#" aria-label="X"><i class="ph ph-x-logo"></i></a>
+          <a href="#" aria-label="YouTube"><i class="ph ph-youtube-logo"></i></a>
+          <a href="#" aria-label="Instagram"><i class="ph ph-instagram-logo"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="f-word" aria-hidden="true">QuickCRM</div>
+    <button class="to-top" id="toTop" aria-label="Back to top"><i class="ph-bold ph-arrow-up"></i></button>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
